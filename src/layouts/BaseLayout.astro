@@ -1,0 +1,22 @@
+---
+const { title = "Payment Rules Monitor" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+  </head>
+
+  <body>
+    <main>
+      <slot />
+    </main>
+
+    <footer style="margin-top: 4rem; font-size: 0.9rem; color: #666;">
+      Monitoring only. Not legal or financial advice.
+    </footer>
+  </body>
+</html>
